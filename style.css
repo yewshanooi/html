@@ -12,10 +12,11 @@
 }
 
 /* Page Contents */
-.navbar-div {
+.button-component-div {
     position: relative;
     margin-left: 25px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 10px;
 }
 
 .page-div {
@@ -75,9 +76,10 @@
     cursor: pointer;
     box-shadow: transparent 0px 0px;
     gap: 8px;
+    text-decoration: none;
 }
 
-.navbar-button {
+.black-button {
     background-color: #000000;
     border: none;
     border-radius: 6px;
@@ -94,6 +96,27 @@
     cursor: pointer;
     box-shadow: transparent 0px 0px;
     gap: 8px;
+    text-decoration: none;
+}
+
+.red-button {
+    background-color: rgb(244, 67, 54);
+    border: none;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f0f6fc1a;
+    color: #ffffff;
+    padding: 8px 24px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: transparent 0px 0px;
+    gap: 8px;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -105,8 +128,15 @@
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.navbar-button:hover {
+.black-button:hover {
     background-color: #333333;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.red-button:hover {
+    background-color: rgb(244, 97, 84);
     color: #ffffff;
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
