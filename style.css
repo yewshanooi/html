@@ -11,37 +11,13 @@
     font-size: 20px;
 }
 
-/* index.html */
-.index-div {
-    position: relative;
-    margin-left: 25px;
-    width: 100%;
-    padding-top: 25px;
-    padding-bottom: 10px;
-}
-
-.index-h2 {
-    position: absolute;
-    margin-left: 60px;
-    margin-top: 5px;
-    font-family: "Segoe UI", sans-serif;
-}
-
-/* IMPORTANT: index.html require a special font for description with padding-top: 8px */
-.index-font-normal {
-    font-family: "Segoe UI", sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    padding-top: 8px;
-}
-
+/* Page Contents */
 .navbar-div {
     position: relative;
     margin-left: 25px;
     padding-bottom: 50px;
 }
 
-/* Page Contents */
 .page-div {
     position: relative;
     margin-left: 25px;

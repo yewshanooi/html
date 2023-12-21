@@ -13,13 +13,6 @@ async function getCatFact() {
 }
 
 // Event to check whether a button is clicked
-document.addEventListener("DOMContentLoaded", function(){
-    var btn = document.getElementById("myBtn");
-    var element = document.getElementById("myToast");
-
-    var myToast = new bootstrap.Toast(element);
-
-    btn.addEventListener("click", function(){
-        myToast.show();
-    });
-});
+async function submitButton() {
+    alert('You have clicked on the Search button!');
+}
